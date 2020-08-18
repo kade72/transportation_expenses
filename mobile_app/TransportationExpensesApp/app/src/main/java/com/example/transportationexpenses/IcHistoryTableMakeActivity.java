@@ -15,6 +15,13 @@ import android.widget.Toast;
 
 import java.util.Objects;
 
+/**
+ * "勤務表作成画面"
+ * - トップ画面から「勤務表作成」ボタンをタップすると表示されるクラス
+ * - 勤務表作成の最終確認をするためにリストを表示する
+ * - (リスト自体はTableMakeFragment○.javaで設定している)○:1~3がはいる
+ * - 今までの全履歴で月ごとに表示するのを想定している(3ヶ月分入るようにタブを作成)
+ */
 public class IcHistoryTableMakeActivity extends AppCompatActivity {
 
     @Override

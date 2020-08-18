@@ -12,6 +12,9 @@ import android.widget.Button;
 
 import java.util.Objects;
 
+/**
+ * "トップ(メイン)画面"
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

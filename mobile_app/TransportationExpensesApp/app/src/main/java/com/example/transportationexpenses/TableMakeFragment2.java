@@ -17,6 +17,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * IcHistoryTableMakeActivityのタブの中身
+ */
 public class TableMakeFragment2 extends Fragment {
 
     public TableMakeFragment2() {

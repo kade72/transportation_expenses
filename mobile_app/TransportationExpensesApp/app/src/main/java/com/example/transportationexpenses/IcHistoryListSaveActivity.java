@@ -17,6 +17,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * "本体への保存確認画面"
+ * IcReadHistoryListActivity(読み取り履歴一覧画面)でチェックボックスをいじって、「保存を確認」ボタンで遷移してくる画面
+ * チェックボックスが外された項目についてはその行が暗くなる想定
+ */
 public class IcHistoryListSaveActivity extends AppCompatActivity {
 
     @Override

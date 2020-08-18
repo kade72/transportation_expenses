@@ -20,6 +20,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+
+/**
+ * IcHistoryListActivityのタブの中身
+ */
 public class IcHistoryFragment1 extends Fragment {
 
     public IcHistoryFragment1() {

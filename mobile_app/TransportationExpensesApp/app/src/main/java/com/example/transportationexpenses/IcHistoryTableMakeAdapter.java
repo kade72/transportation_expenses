@@ -10,6 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/**
+ * IcHistoryTableMakeActivity(勤務表作成画面)で表示するリストの"1行分"の表示内容を管理しているクラス
+ * - (リスト自体はTableMakeFragment○.javaで設定している)○:1~3がはいる
+ */
 public class IcHistoryTableMakeAdapter extends RecyclerView.Adapter<IcHistoryTableMakeAdapter.ViewHolder> {
 
     private List<IcHistory> icHistoryList;

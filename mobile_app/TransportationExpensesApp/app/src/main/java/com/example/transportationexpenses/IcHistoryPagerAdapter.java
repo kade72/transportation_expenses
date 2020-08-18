@@ -5,6 +5,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+/**
+ * IcHistoryListActivityで用意しているタブの切り替えを管理しているクラス
+ * タブのタイトルや、タブに表示するFragment(画面)をここで設定している
+ */
 public class IcHistoryPagerAdapter extends FragmentPagerAdapter {
 
 

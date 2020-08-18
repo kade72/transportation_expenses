@@ -19,6 +19,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * "読み取り履歴一覧画面"
+ * ICカードから読み取った情報を表示するクラス(画面)
+ * ここで、私用や勤務表に入れたくない内容のチェックを外す
+ */
 public class IcReadHistoryListActivity extends AppCompatActivity {
 
     @Override

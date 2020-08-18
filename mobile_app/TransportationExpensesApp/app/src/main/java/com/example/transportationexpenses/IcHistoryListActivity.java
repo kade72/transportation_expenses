@@ -12,6 +12,13 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.Objects;
 
+/**
+ * "履歴一覧画面"
+ * - ICカードから読み取った全乗車履歴
+ * - トップ画面の右上アイコンタップで遷移する画面
+ * - 今までの全履歴で月ごとに表示するのを想定している(3ヶ月分入るようにタブを作成)
+ */
+
 public class IcHistoryListActivity extends AppCompatActivity {
 
     @Override

@@ -1,5 +1,10 @@
 package com.example.transportationexpenses;
 
+
+/**
+ * ICカードから読み取った乗車履歴のデータの変数を設定しているクラス
+ */
+
 public class IcHistory {
 
     /** 日付 */

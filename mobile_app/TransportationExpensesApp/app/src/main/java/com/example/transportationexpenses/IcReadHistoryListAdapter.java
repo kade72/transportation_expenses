@@ -11,6 +11,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/**
+ * IcReadHistoryListActivity(読み取り履歴一覧画面)で表示するリストの"1行分"の表示内容を管理しているクラス
+ * (チェックボックスのon/offの切り替えはここをいじる想定)
+ */
 public class IcReadHistoryListAdapter extends RecyclerView.Adapter<IcReadHistoryListAdapter.ViewHolder> {
 
     private List<IcHistory> icHistoryList;

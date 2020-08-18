@@ -10,6 +10,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/**
+ * IcHistoryListActivity(履歴一覧画面)で表示するリストの"1行分"の表示内容を管理しているクラス
+ * (リスト自体はIcHistoryFragment○.javaで表示) ○:1~3の数字が入る
+ */
 public class IcHistoryListAdapter extends RecyclerView.Adapter<IcHistoryListAdapter.ViewHolder> {
 
     private List<IcHistory> icHistoryList;

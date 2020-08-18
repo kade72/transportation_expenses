@@ -11,6 +11,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+/**
+ * IcHistoryListSaveActivity(本体への保存確認画面)で表示するリストの"1行分"の表示内容を管理しているクラス
+ * (チェックボックスのon/offの切り替えはこのクラスで管理する想定)
+ */
 public class IcHistoryListSaveAdapter extends RecyclerView.Adapter<IcHistoryListSaveAdapter.ViewHolder> {
 
     private List<IcHistory> icHistoryList;

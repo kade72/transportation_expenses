@@ -12,6 +12,11 @@ import android.widget.Button;
 
 import java.util.Objects;
 
+/**
+ * "読み取り画面"
+ * ICカードを読み取る
+ * TODO: 読み取るイラスト的なものを配置(+下のTODOを忘れずやる)
+ */
 public class IcReadActivity extends AppCompatActivity {
 
     @Override
@@ -25,6 +30,7 @@ public class IcReadActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         // TODO: 読み取りできるようになったら消す
+        //  (↓読み取り機能がなく、画面遷移できないから配置したボタン)
         Button button = findViewById(R.id.ic_read_button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
